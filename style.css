@@ -6,6 +6,13 @@
 
 body {
   font-family: Inter, sans-serif;
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
 }
 
 header {
@@ -42,6 +49,8 @@ header span {
 
 .main-image {
   /* Стили для изображения в первой секции */
+  width: 715px;
+  height: 508px;
 }
 
 .about-section {
@@ -91,8 +100,13 @@ td {
 
 footer {
   /* Стили для футера */
+  background: rgba(163, 167, 255, 0.3);
+  padding: 26px 0;
 }
 
 .footer-link {
   /* Стили для футера */
+  font-weight: 400;
+  font-size: 14px;
+  color: #2965f1;
 }
