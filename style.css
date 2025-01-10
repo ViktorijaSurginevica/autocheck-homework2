@@ -59,23 +59,31 @@ header span {
 select {
   /* Стили для выпадающего списка */
   border: 1px solid rgba(48, 48, 48, 0.3);
-border-radius: 5px;
-width: 150px;
-height: 36px;
-background: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  width: 150px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
 }
 
 .section-title {
   /* Стили для заголовков во второй секции */
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
 }
 
 .frameworks-list {
   /* Стили для маркированного списка во второй секции */
+  width: 80px;
+  height: 57px;
+  background: #fff;
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
-  check
+  width: 670px;
+  height: 111px;
 }
 
 .label {
@@ -97,17 +105,17 @@ background: rgba(255, 255, 255, 0);
 table {
   /* Стили для таблицы */
   width: 300px;
-height: 196px;
-border: 1px solid #95a1bb;
-border-collapse: collapse;
+  height: 196px;
+  border: 1px solid #95a1bb;
+  border-collapse: collapse;
 }
 
 th,
 td {
   /* Стили для ячеек таблицы */
   width: 300px;
-height: 40px;
-padding: 12px 15px;
+  height: 40px;
+  padding: 12px 15px;
 }
 
 footer {
