@@ -53,7 +53,7 @@ header span {
 .about-section {
   /* Стили для второй секции */
   background-color: #fff;
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 select {
@@ -62,7 +62,6 @@ select {
   border-radius: 5px;
   width: 150px;
   height: 36px;
-  background: rgba(255, 255, 255, 0);
   background-repeat: no-repeat;
 }
 
@@ -71,6 +70,7 @@ select {
   font-weight: 700;
   font-size: 24px;
   color: #303030;
+  margin: 25px 0;
 }
 
 .frameworks-list {
@@ -78,15 +78,17 @@ select {
   width: 80px;
   height: 57px;
   background: #fff;
+  padding: 0 20px;
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
   width: 670px;
   height: 111px;
+  padding: 0 20px;
 }
 
-.label {
+.label {s
   /* Стили для подписей чекбоксов */
 }
 
