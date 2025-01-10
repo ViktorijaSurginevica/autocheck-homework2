@@ -93,6 +93,7 @@ table {
   /* Стили для таблицы */
   width: 300px;
 height: 196px;
+border: 1px solid #95a1bb;
 }
 
 th,
@@ -100,7 +101,7 @@ td {
   /* Стили для ячеек таблицы */
   width: 300px;
 height: 40px;
-padding: 12px 0 12px 15px;
+padding: 12px 15px;
 }
 
 footer {
