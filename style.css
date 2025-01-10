@@ -98,6 +98,8 @@ select {
 
 .btn {
   /* Стили для кнопки */
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  color: #fff;
   border-radius: 5px;
   width: 125px;
 height: 36px;
