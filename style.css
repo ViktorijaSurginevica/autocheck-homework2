@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #303030;
   a {
     text-decoration: none;
   }
@@ -13,7 +14,6 @@ body {
   ul {
     list-style: none;
   }
-  color: #303030;
 }
 
 header {
@@ -41,7 +41,7 @@ header span {
   font-weight: 700;
   font-size: 48px;
   color: #303030;
-
+  margin-bottom: 20px;
 }
 
 .main-text {
