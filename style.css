@@ -41,6 +41,7 @@ header span {
   font-weight: 700;
   font-size: 48px;
   color: #303030;
+
 }
 
 .main-text {
@@ -48,6 +49,7 @@ header span {
   font-weight: 400;
   font-size: 18px;
   color: #303030;
+  margin: 0 0 0 0;
 }
 
 .main-image {
@@ -58,6 +60,8 @@ header span {
 
 .about-section {
   /* Стили для второй секции */
+  background-color: #fff;
+  margin: 100px 0;
 }
 
 select {
