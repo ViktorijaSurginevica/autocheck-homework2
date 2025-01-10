@@ -13,6 +13,7 @@ body {
   ul {
     list-style: none;
   }
+  color: #303030;
 }
 
 header {
@@ -32,8 +33,7 @@ header span {
   /* Стили для первой секции */
   background: #fafaff;
   width: 1440px;
-  height: 1024px;
-  padding: 160px 725px 356pх 0;
+  padding: 160px 725px 356px 0;
 }
 
 .main-title {
